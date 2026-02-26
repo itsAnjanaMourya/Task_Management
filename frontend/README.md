@@ -1,6 +1,6 @@
 # Task Management Frontend
 
-**Live demo:** https://chipper-sfogliatella-821c49.netlify.app
+**Live demo:** https://manageurtasks.netlify.app
 
 This README explains how the frontend for the Task Management app is organized, how the in-browser mocking works, how to run the project locally, and which libraries are used.
 

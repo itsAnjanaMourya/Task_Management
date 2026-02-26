@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare, faTrash, faSearch, faPlus, faCheckCircle, faClock, faList } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
-  const { currentUser, isAuthenticated, logout } = useContext(AuthContext);
+  const { currentUser, isAuthenticated} = useContext(AuthContext);
   const [note, setNote] = useState({ title: "", description: "", status: "To Do" });
   const [list, setList] = useState([]);
   const [editId, setEditId] = useState(null);

@@ -2,7 +2,6 @@ import { v4 as uuidv4 } from "uuid";
 
 const USERS_KEY = "mock_users";
 const NOTES_KEY = "mock_notes";
-const AUTH_KEY = "mock_auth";
 
 const delay = (ms = 300) => new Promise(res => setTimeout(res, ms));
 
