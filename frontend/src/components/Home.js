@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import * as api from "../api/mockApi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
